@@ -9,6 +9,7 @@ export function ProfileScreen({navigation}) {
 
   function getOut(){
     logout();
+    logout();
     navigation.navigate('Login');
   }
 
