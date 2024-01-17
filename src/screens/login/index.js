@@ -20,7 +20,7 @@ export default function LoginScreen({navigation}) {
     if(email.length > 0 && password.length > 0){
       console.log(email, password)
       try{
-        login("0125", "user", "default", email, password);
+        login("0125", "user", email, password);
       }catch(e){
         console.log(e)
       }
