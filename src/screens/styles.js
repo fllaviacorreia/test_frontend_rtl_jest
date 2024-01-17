@@ -31,4 +31,8 @@ export const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    errorMessage:{
+      fontSize: 13,
+      color: 'red',
+    }
   });
